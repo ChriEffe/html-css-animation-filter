@@ -92,7 +92,7 @@
 .ex-9-img:hover  {
     border-radius: 10px;
     filter: invert(100%) contrast(200%);
-    width: 600px;
+    transform: scale(1.5);
 }
 
 .ex-10-icon {
@@ -103,14 +103,24 @@
     animation-name: ruota;
 }
 
-@keyframes ruota {
-   from {transform:rotate(0deg); left:0;}
-   to {transform:rotate(360deg); left:100%}
+@keyframes ruota  {
+   from {transform:rotate(0deg);}
+   to {transform:rotate(360deg);}
 }   
 
 .ex-11-icon {
     font-size: 60px;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-name: ruota-2;
 }
+
+@keyframes ruota-2  {
+    0% {transform: rotate(0deg);}
+    75% {transform: rotate(270deg);}
+    0% {transform: rotate(0deg);} 
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;

@@ -173,7 +173,17 @@
 }
 
 @keyframes borderbottomwhite {
-    0% {right:10%}
+    0% {right:20%}
     50% {right:60%}
-    100% {right:10%}
+    100% {right:20%}
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-name: bordertoprotate
+}
+
+@keyframes bordertoprotate  {
+    0% {left:0%}
 }

@@ -97,7 +97,17 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: ruota;
 }
+
+@keyframes ruota {
+   from {transform:rotate(0deg); left:0;}
+   to {transform:rotate(360deg); left:100%}
+}   
+
 .ex-11-icon {
     font-size: 60px;
 }

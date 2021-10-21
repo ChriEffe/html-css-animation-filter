@@ -166,7 +166,7 @@
     100% {left:10%}
 }
 
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white  {
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-name: borderbottomwhite
@@ -185,5 +185,10 @@
 }
 
 @keyframes bordertoprotate  {
-    0% {left:0%}
-}
+    0% {left:10%}
+    25% {left:90%}
+    45% {left:90% top:100%}
+    65% {left:0 top:100%}
+    85% {left:0 top:0}
+    100% {left:10%}
+} 

@@ -110,6 +110,9 @@
 
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover  {
     animation-duration: 5s;
     animation-iteration-count:infinite;
     animation-name: ruota-2;
